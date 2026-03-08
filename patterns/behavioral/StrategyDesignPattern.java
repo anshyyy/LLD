@@ -28,7 +28,7 @@ this also brokes the open-closed principle
 to solve this type of problems we have strategy pattern
 */
 
-package patterns.creational;
+package patterns.behavioral;
 
 interface PaymentStrategy {
      public void pay(double amount);
